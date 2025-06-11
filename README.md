@@ -27,7 +27,7 @@ Access the web interface at https://qwerty.streamlit.app/
 ## Installation
   
   ### Clone the Repository: 
-  git clone https://github.com/Amritesh-K/SecureVision.git
+  git clone https://github.com/Pranav-P-S/SecureVision.git
   cd SecureVision
 
   ### Install Dependencies:
