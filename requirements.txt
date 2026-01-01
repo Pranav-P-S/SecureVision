@@ -1,6 +1,22 @@
-streamlit
-opencv-python-headless
-numpy
-streamlit-webrtc
-tensorflow
-git+https://github.com/whitphx/streamlit-webrtc.git@v0.30.0#egg=streamlit_webrtc
+# SecureVision Dependencies
+# Core framework
+streamlit>=1.28.0
+
+# Deep Learning
+# Using TensorFlow 2.12 - compatible with Python 3.11 and uses Keras 2
+# Essential for loading legacy .h5 models without Keras 3 compatibility issues
+tensorflow==2.12.0
+# Do NOT install separate keras package - TensorFlow 2.12 includes it
+
+# Computer Vision
+opencv-python-headless>=4.8.0
+
+# Image Processing
+Pillow>=10.0.0
+
+# Numerical Computing
+numpy>=1.24.0
+
+# WebRTC for camera (Streamlit component)
+streamlit-webrtc>=0.45.0
+av>=10.0.0
