@@ -66,23 +66,6 @@ Built-in fire safety tips and emergency information.
 </tr>
 </table>
 
----
-
-## 🚀 Quick Start
-
-```bash
-# Clone the repository
-git clone https://github.com/Pranav-P-S/SecureVision.git
-cd SecureVision
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run the application
-streamlit run app.py
-```
-
-The app will open in your browser at `http://localhost:8501`
 
 ---
 
@@ -128,6 +111,7 @@ The app will open in your browser at `http://localhost:8501`
    ```bash
    streamlit run app.py
    ```
+The app will open in your browser at `http://localhost:8501`
 
 ---
 
